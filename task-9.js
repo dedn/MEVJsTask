@@ -1,5 +1,7 @@
-var a;
-console.log(a());
-function a() {
-    return true;
-};
+(function () {
+    var a;
+    console.log(a());
+    function a() {
+        return true;
+    };
+})();

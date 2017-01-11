@@ -1,3 +1,4 @@
+(function () { 
 customSetTimeout = setTimeout;
 
 setTimeout = function(func, delay) {
@@ -13,3 +14,4 @@ function setInterval(func, delay) {
 
 // вызов
 setInterval();
+})();
