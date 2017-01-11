@@ -1,16 +1,15 @@
 customSetTimeout = setTimeout;
 
-setTimeout = function (delay, func) {
-    return customSetTimeout(func, delay);
+setTimeout = function(func, delay) {
+    return customSetTimeout(delay, func);
 };
 
 function setInterval(func, delay) {
-     setTimeout(delay, function () {
-        func();
-        setInterval(func, delay);
-    });
+    timerId = setTimeout(delay, function go() {
+        console.log("test");
+        setTimeout(2000, go);
+    }, 2000);
 }
 
-setInterval(function () {
-console.log("test setinterval");
-}, 5000);
+// вызов
+setInterval();

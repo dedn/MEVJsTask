@@ -29,4 +29,4 @@ RacingСar.prototype.constructor = RacingСar;
 var racingСar = new RacingСar('Formula-One', '350');
 console.log(racingСar.model);
 console.log(racingСar.speed);
-console.log(bigCar.asd);
+console.log(bigCar.asd);    
