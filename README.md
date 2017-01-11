@@ -2,7 +2,6 @@
 
 ### Tasks 1-15
 Task 4 done in two variants.
-Task 11 - in progress.
 ###For Start:
 <li>To start the download repository open a terminal in the folder with the back. 
 <li>Enter in the terminal "node task-1"
