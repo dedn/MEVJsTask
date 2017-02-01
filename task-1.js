@@ -1,5 +1,4 @@
 (function () {
-    var str = "wSSde rr 3!D !!fg __AAs cert";
     function capitalizeIt(str) {
         str = str.split('');
         for (var i = 1; i < str.length; i++) {
@@ -10,5 +9,6 @@
         }
         return str.join('');
     }
-    console.log(capitalizeIt(str));
+
+    console.log(capitalizeIt(process.argv[2]));
 })();

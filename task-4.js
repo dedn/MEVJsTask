@@ -1,7 +1,6 @@
 (function () {
-    array = [2, 3, 4, 5, 6, 7, 8, 45, 34, "sdds", 1.2];
-    max = "max";
-    min = "min";
+    var max = "max";
+    var min = "min";
 
     function findMinMax(arr, value) {
         var filterData = filterInput(arr);
@@ -28,6 +27,6 @@
 
     findMinMax(array, max);
 
-    console.log(findMinMax(array, max));
-    console.log(findMinMax(array, min));
+    console.log(findMinMax([1, 2, -20, 3, 4, -5, 44, 200, -100, "string", {}], process.argv[2]));
 })();
+

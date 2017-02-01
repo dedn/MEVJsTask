@@ -1,5 +1,4 @@
 (function () {
-    var arr = [1, 2, -20, 3, 4, -5, 44, 200, -100, "string", {}];
     var max = "max";
     var min = "min";
 
@@ -26,6 +25,5 @@
         }
     }
 
-    console.log(findMinMax(arr, min));
-    console.log(findMinMax(arr, max));
+    console.log(findMinMax([1, 2, -20, 3, 4, -5, 44, 200, -100, "string", {}], process.argv[2]));
 })();

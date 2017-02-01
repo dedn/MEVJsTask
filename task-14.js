@@ -36,11 +36,8 @@
     pipe(" on345l90y    te**x((((t     h$&er@@@e ");
 
 
-    document.write(pipe(" on345l90y  te**x((((t  h$&er@@@e "));
+    console.log(pipe(process.argv[2]));
 })();
-
-
-
 
 
 
